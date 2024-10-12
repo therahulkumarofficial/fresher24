@@ -13,7 +13,7 @@ const Nav = () => {
     <header className="sticky top-0 z-40 bg-[#040024CC] backdrop-blur-lg p-4 flex justify-center items-center">
       <div className="w-full max-w-7xl flex justify-between items-center">
         {/* Brand / Logo */}
-        <a href="#" className="text-white text-2xl font-serif font-semibold">
+        <a href="/" className="text-white text-2xl font-serif font-semibold">
           Fresher's 2024
         </a>
 
@@ -43,7 +43,7 @@ const Nav = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/event/schedule"
                 className="nav-link bg-[#0b0b22FD] hover:bg-white hover:text-black font-semibold transition-all duration-300 rounded-md py-2 px-4 shadow-none hover:shadow-custom tracking-normal hover:tracking-wider block"
               >
                 Schedule
@@ -51,7 +51,7 @@ const Nav = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/event/register"
                 className="nav-link bg-[#0b0b22FD] hover:bg-white hover:text-black font-semibold transition-all duration-300 rounded-md py-2 px-4 shadow-none hover:shadow-custom tracking-normal hover:tracking-wider block"
               >
                 Register for Events
