@@ -67,7 +67,7 @@ const Nav = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/login"
                 className="nav-link bg-[#0b0b22FD] hover:bg-white hover:text-black font-semibold transition-all duration-300 rounded-md py-2 px-4 shadow-none hover:shadow-custom tracking-normal hover:tracking-wider block"
               >
                 Login

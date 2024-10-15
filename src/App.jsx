@@ -6,7 +6,7 @@ import "aos/dist/aos.css"; // Import AOS CSS
 import 'material-icons/iconfont/material-icons.css'; // Import Material Icons CSS
 import EventScheduleScreen from "./components/EventScheduleScreen"; // Import your EventScheduleScreen
 import EventRegisterScreen from "./components/EventRegisterScreen"; // Import your EventRegisterScreen
-
+import Header from "./components/Header";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -19,6 +19,7 @@ function App() {
 
   return (
     <Router>
+      <Header />
       <div className="min-h-screen bg-[#1e1e2e] text-white">
         <Nav />
         <main className="relative isolate px-6 lg:px-8 flex justify-center items-center m-auto min-h-screen bg-[#040024]">
